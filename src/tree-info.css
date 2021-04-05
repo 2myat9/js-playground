@@ -1,0 +1,36 @@
+@import "./style.css";
+
+.tree-image {
+  /* important settings to force resize image while keeping aspect ratio */
+  display: block;
+  max-height: 600px;
+  max-width: 300px;
+  height: auto;
+  width: auto;
+  border: solid 10px greenyellow;
+}
+
+.info-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-name {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.family-common-name {
+  font-size: 20px;
+  margin: 10px;
+  margin-bottom: 20px;
+}

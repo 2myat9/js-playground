@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.map-container {
+  height: 400px;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  height: 100%;
+  width: 80%;
+}
+
+.demo-title {
+  min-width: 100vw;
+  min-height: 50px;
+  text-align: center;
+  font-size: 40px;
+  color: turquoise;
+}
