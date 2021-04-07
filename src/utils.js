@@ -1,6 +1,5 @@
 // API variables
 const TOKEN = process.env.TREFLE_API_KEY;
-console.log(TOKEN);
 
 const TREFLE_API_URL = `https://trefle.io/api/v1/plants?token=${TOKEN}`;
 
