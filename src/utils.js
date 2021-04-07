@@ -1,5 +1,6 @@
 // API variables
-const TOKEN = "tN5yGH-mJKefYMzrJ2RP0tQgcZ4m7R0_eQKS5ABaHF4";
+const TOKEN = process.env.TREFLE_API_KEY;
+console.log(TOKEN);
 
 const TREFLE_API_URL = `https://trefle.io/api/v1/plants?token=${TOKEN}`;
 
